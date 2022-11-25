@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+html {
+  margin: 2rem 6rem;
+}
+
+* {
+  background-color: #F5F5F5;
+  padding: 0%;
+  margin: 0%;
+  font-family: inter;
+  box-sizing: border-box;
+  /* border: 2px solid; */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+menu {
+  display: flexbox;
+  padding: 0.3rem;
+  margin-right: 4rem;
+}
+
+.logo {
+  font-family: Inter;
+  display: inline;
+  font-size: 48px;
+  width: 260px;
+  height: 60px;
+}
+
+
+.menulist,
+li {
+  margin: 0.5rem;
+  font-family: inter;
+  display: inline;
+  font-size: 28px;
+  list-style: none;
+  float: right;
+}
+
+
+footer{
+  color: #7A8AAF;
+  opacity: 0.5;
+}
+
+
+section {
+  display: flex;
+  margin: 1rem;
+  /* background-color: yellow; */
+}
+.fa-brands{
+  font-size: 2rem;
+  padding: 0.4rem;
+}
+
+.fa-github{
+  color: #4078c0;
+}
+.fa-twitter{
+  color: #00acee;
+}
+.fa-telegram{
+  color: #229ED9;
+}
+
+.herotext {
+  width:55%;
+  height: 65vh;
+  padding: 2.5rem;
+  text-align: center;
+
+}
+.heroimage {
+
+  width: 45%;
+  height: 65vh;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+
+.hero {
+  margin: 0.3rem;
+}
+
+.hero h1 {
+  font-size: 30px;
+
+  text-align: center;
+}
+
+.hero sub {
+  margin-top: 0.5rem;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+  display: block;
+}
+
+
+.herotextpara {
+  margin-top: 22%;
+  margin-left: 6rem;
+}
+
+
+.hero-img {
+  display: inline-block;
+  width: 500px;
+  height: 420px;
+  margin-right: 5rem;
+  object-fit: cover;
+  
+  /* border: 2px solid; */
+
+
+}
+
+
+button{
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  background-color: #7A8AAF;
+  color: white;
+
+}
+
+
+
+button:hover{
+  background-color: transparent;
+  color: #7A8AAF;
+  border: 1.5px solid #7A8AAF;
+}
+
+
+.fr{
+  flex-direction: row-reverse;
+}
+
+/* MAin page hero */
+#head{
+  font-size: 3rem;
+}
+
+#sub{
+  font-size: 2rem;
+}
